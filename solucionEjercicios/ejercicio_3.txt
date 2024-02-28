@@ -1,0 +1,18 @@
+Moverse al directorio del matrix_mul. La ruta es:
+oneAPI-samples/DirectPrograming/C++SYCL/DenseLinearAlgebra/matrix_mul
+
+Pregunta 3.1.
+Listar los comandos utilizados y su salida correspondiente en la consola
+
+==========================================================================
+
+cba@cba-VirtualBox:~/Desktop$ cd oneAPI-samples/
+cba@cba-VirtualBox:~/Desktop/oneAPI-samples$ cd DirectProgramming/
+cba@cba-VirtualBox:~/Desktop/oneAPI-samples/DirectProgramming$ cd C++SYCL
+cba@cba-VirtualBox:~/Desktop/oneAPI-samples/DirectProgramming/C++SYCL$ cd DenseLinearAlgebra/
+cba@cba-VirtualBox:~/Desktop/oneAPI-samples/DirectProgramming/C++SYCL/DenseLinearAlgebra$ cd matrix_mul/
+cba@cba-VirtualBox:~/Desktop/oneAPI-samples/DirectProgramming/C++SYCL/DenseLinearAlgebra/matrix_mul$ ls
+build_omp.sh  Makefile.win             run_omp.sh   third-party-programs.txt
+build.sh      matrix_mul.sln           run.sh
+License.txt   matrix_mul_sycl.vcxproj  sample.json
+Makefile      README.md    

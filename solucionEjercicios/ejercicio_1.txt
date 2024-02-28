@@ -1,0 +1,21 @@
+Clonar el siguiente repositorio:
+https://github.com/oneapi-src/oneAPI-samples.git
+
+Pregunta 1.1. Listar los comandos utilizados y su salida correspondiente en la consola
+
+========================================================================================
+
+cba@cba-VirtualBox:~/Desktop$ ls
+cerseu  ejercicioPracticoUno  syclacademy
+cba@cba-VirtualBox:~/Desktop$ git clone https://github.com/oneapi-src/oneAPI-samples.git
+Cloning into 'oneAPI-samples'...
+remote: Enumerating objects: 38542, done.
+remote: Counting objects: 100% (989/989), done.
+remote: Compressing objects: 100% (752/752), done.
+remote: Total 38542 (delta 378), reused 692 (delta 209), pack-reused 37553
+Receiving objects: 100% (38542/38542), 382.71 MiB | 3.12 MiB/s, done.
+Resolving deltas: 100% (25136/25136), done.
+Updating files: 100% (5624/5624), done.
+cba@cba-VirtualBox:~/Desktop$ ls
+cerseu  ejercicioPracticoUno  oneAPI-samples  syclacademy
+

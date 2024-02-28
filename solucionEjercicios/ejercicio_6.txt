@@ -1,0 +1,21 @@
+ejecutar el programa usando los siguientes comandos
+
+./matrix_mul_omp
+
+========================================================================================
+Pregunta 6.1.
+
+Listar las salidas correspondientes en la consola
+
+cba@cba-VirtualBox:~/Desktop/oneAPI-samples/DirectProgramming/C++SYCL/DenseLinearAlgebra/matrix_mul$ ./matrix_mul_omp
+Problem size: c(150,600) = a(150,300) * b(300,600)
+Running on 0 device(s)
+The default device id: 0
+Result of matrix multiplication using OpenMP: Success - The results are correct!
+Result of matrix multiplication using GPU offloading: Fail - The result is incorrect for element: [0, 0], expected: 45150, but found: 58486
+Fail - The result is incorrect for element: [0, 1], expected: 45150, but found: 58191
+Fail - The result is incorrect for element: [0, 2], expected: 45150, but found: 58785
+Fail - The result is incorrect for element: [0, 3], expected: 45150, but found: 58484
+Fail - The result is incorrect for element: [0, 4], expected: 45150, but found: 56806
+Fail - The results mismatch!
+

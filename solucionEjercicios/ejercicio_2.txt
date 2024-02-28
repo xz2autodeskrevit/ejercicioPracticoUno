@@ -1,0 +1,9 @@
+Moverse al directorio del repositorio oneAPI-samples
+
+Pregunta 2.1.
+Listar los comandos utilizados y su salida correspondiente en la consola
+
+==========================================================================
+
+cba@cba-VirtualBox:~/Desktop$ cd oneAPI-samples/
+cba@cba-VirtualBox:~/Desktop/oneAPI-samples$ 

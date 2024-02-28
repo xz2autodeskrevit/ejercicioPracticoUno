@@ -1,0 +1,21 @@
+Contestar las siguientes preguntas de teoría. 
+
+Pregunta 7.1.
+¿Cuáles son las locaciones de git?
+
+
+Pregunta 7.2.
+¿Qué es el speedUp y cómo se calcula?
+
+
+
+Pregunta 7.3.
+Mencione dos técnicas de paralelización
+
+
+
+Pregunta 7.4. 
+¿Cuáles son las dos leyes fundamentales de la computación paralela?
+
+
+

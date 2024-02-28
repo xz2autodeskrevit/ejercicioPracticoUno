@@ -1,0 +1,63 @@
+Ejecutar el comando make build_omp en la terminal
+
+
+====================================================================================
+
+Pregunta 5.1.
+Listar las salidas correspondientes en la consola
+
+cba@cba-VirtualBox:~/Desktop/oneAPI-samples/DirectProgramming/C++SYCL/DenseLinearAlgebra/matrix_mul/src$ ls
+matrix_mul_omp.cpp  matrix_mul_sycl.cpp
+cba@cba-VirtualBox:~/Desktop/oneAPI-samples/DirectProgramming/C++SYCL/DenseLinearAlgebra/matrix_mul/src$ cd ..
+cba@cba-VirtualBox:~/Desktop/oneAPI-samples/DirectProgramming/C++SYCL/DenseLinearAlgebra/matrix_mul$ ls
+build_omp.sh  Makefile.win             run_omp.sh   third-party-programs.txt
+build.sh      matrix_mul.sln           run.sh
+License.txt   matrix_mul_sycl.vcxproj  sample.json
+Makefile      README.md                src
+cba@cba-VirtualBox:~/Desktop/oneAPI-samples/DirectProgramming/C++SYCL/DenseLinearAlgebra/matrix_mul$ make build_omp 
+icpx -fiopenmp -fopenmp-targets=spir64 -D__STRICT_ANSI__ -g -o matrix_mul_omp src/matrix_mul_omp.cpp 
+make: icpx: No such file or directory
+make: *** [Makefile:21: build_omp] Error 127
+cba@cba-VirtualBox:~/Desktop/oneAPI-samples/DirectProgramming/C++SYCL/DenseLinearAlgebra/matrix_mul$ 
+
+
+Pregunta 5.1.
+Indicar (usando máximo dos oraciones) que es lo que realiza el comando anterior
+ ejecuta el script matrix_mul_omp a través de un compilador intel (ó API OpenMP). el script mide el rendimiento de multiplicar matrices mediante el uso de OpenMP CPU en comparación al usar OpenMP sobre GPU.
+
+
+Pregunta 5.2.
+¿Se ha ejecutado satisfactoriamente el comando anterior? justifique su respuesta (usando máximo dos oraciones) 
+No se ha ejecutado satisfactoriamente el comando anterior porque la variable CXX que referencia al compilador intel icpx no se ha encontrado en el directorio
+
+======================================================================================
+modifica los archivos Makefile y matrix_mul_omp.cpp
+
+ejecutar nuevamente el comando make build_omp en la terminal
+
+
+Pregunta 5.1. 
+Listar las salidas correspondientes en la consola
+
+cba@cba-VirtualBox:~/Desktop/clase6$ sudo apt install gcc g++
+[sudo] password for cba: 
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+:
+:
+cba@cba-VirtualBox:~/Desktop/oneAPI-samples/DirectProgramming/C++SYCL/DenseLinearAlgebra/matrix_mul$ make build_omp 
+g++ -fopenmp -D__STRICT_ANSI__ -g -o matrix_mul_omp src/matrix_mul_omp.cpp 
+
+Pregunta 5.2.
+¿Se ha ejecutado satisfactoriamente el comando anterior? Justifique su respuesta
+
+Si se ejecutó satisfactoriamente porque se instaló el compilador g++. El resultado nos indicará dos situaciones: La multiplicación de matrices usando la herramienta de análisis OpenMP sobre CPU, y la verificación de está operación, en comparación a usar la OpenMP sobre GPU
+
+
+
+
+
+
+

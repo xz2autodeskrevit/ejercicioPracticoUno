@@ -1,0 +1,15 @@
+Crear un repositorio  (en GitHub ó GitLab) para guardar el repositorio oneAPI-samples y sus cambios efectuados en este ejercicio (ejm. usando git push)
+
+
+Pregunta 8.1.
+
+Listar todos los comandos git utilizados
+
+
+Pregunta 8.2. 
+
+Proporcionar el link del repositorio creado (en GitHub ó GitLab) en este ejercicio 8
+
+
+
+
